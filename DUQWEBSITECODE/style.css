@@ -1,0 +1,571 @@
+/** 
+COPYRIGHT DUQ SOCIETY 2021 
+    --- CODED BY FINN BEARDMORE
+    **/ 
+
+body {
+    overflow-x: hidden;
+    font-family: 'Black Han Sans', sans-serif;
+}
+nav {
+    display: flex;
+    color: #674a9e;
+    list-style: none;
+}
+#circles {
+    color: black;
+    position: absolute;
+
+    margin-top: 5%; 
+
+
+}
+@keyframes pulse {
+    0% { 
+        width: 100px;
+        height: 100px;
+
+    }
+    50% { 
+        width: 400px;
+        height: 400px;
+
+    }
+    100% {
+        width: 100px;
+        height: 100px;
+    }
+}
+@keyframes pulse2 {
+    0% { 
+        width: 400px;
+        height: 400px;
+
+    }
+    50% { 
+        width: 50px;
+        height: 50px;
+
+    }
+    100% {
+        width: 400px;
+        height: 400px;
+    }
+}
+@keyframes pulse3 {
+    0% { 
+        width: 200px;
+        height: 200px;
+
+    }
+    50% { 
+        width: 100px;
+        height: 100px;
+
+    }
+    100% {
+        width: 200px;
+        height: 200px;
+    }
+}
+#circles   div:first-of-type {
+    background: #d0a3cc;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 150%;
+    animation-name: pulse;
+    animation-duration: 10s; 
+    animation-iteration-count: infinite;
+}
+#circles   div:nth-of-type(2) {
+    background: #e8bd6c;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 400%;
+    animation-name: pulse2;
+    animation-duration: 10s; 
+    animation-iteration-count: infinite;
+}
+#circles   div:nth-of-type(3) {
+    background: #95d0ed;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    animation-name: pulse3;
+    animation-duration: 10s; 
+    animation-iteration-count: infinite;
+}
+#contact #logo-items {
+    margin-left: 60%;
+}
+
+nav > li {
+    margin-right: 2em;
+    text-align: center;
+}
+#title a {
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: #674a9e;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    margin-top: -50%;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+  }
+a:after { 
+    color: #674a9e;
+}
+.here:hover{ 
+    opacity: 0.75;
+}
+#logo-items {
+    display: flex;
+    margin-left: 37%;
+}
+#logo-items > li {
+    margin-left: 25%;
+}
+.or {
+    font-size: 0.1em;
+}
+
+#we-are-live {
+    display: none;
+    color: white;
+    width: 101%; 
+    height: 1000px;
+    margin-top: -5%;
+    margin-left: -0.8%;
+    position: fixed;
+    background-color: #674a9e;
+    overflow-y: hidden;
+    z-index: 200;
+    font-size: 0.8em;
+
+}
+#we-are-live > h1 {
+    font-size: 6em;
+    margin-top: 10%;
+    margin-left: 16%;
+}
+#we-are-live img {
+    margin-top: 40%;
+    margin-left: 10%;
+}
+#logo {
+ 
+    display: flex;
+    justify-content: center;
+    
+}
+#logo > img {
+    position: absolute;
+    width: 10%;
+    margin-top: 15%;
+    animation-name: up; 
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+
+}
+#image-gallery {
+    display: flex;
+    width: 100%;
+}
+#image-gallery > img {
+    width: 20%;
+}
+#title {
+
+    display: flex;
+    justify-content: center;
+    
+}
+#title > button:hover {
+    opacity: 0.75;
+}
+#title > button {
+    margin-left: 1%;
+    margin-top: 40%;
+    background-color:#674a9e;
+    color: white;
+    border: none;
+    padding: 1em 3em;
+
+}
+#part-one {
+    margin-top: 7%;
+    text-align: center;
+    background-color: #674a9e;
+    color: white;
+    height: 600px;
+}
+#part-one > h2 {
+padding: 2em 2em;
+}
+#click {
+    color: white; 
+}
+#part-one > h4 {
+    font-family: arial;
+}
+
+#part-one > button {
+    margin-left: 70%;
+    margin-top: 6%;
+    padding: 1em 2em;
+    background-color: white;
+    border: none;
+    color: #674a9e;
+}
+#part-two > button {
+    margin-left: 70%;
+
+    padding: 1em 2em;
+    background-color: #674a9e;
+    border: none;
+    color: white;
+}
+#part-two > div {
+    font-size: 2em;
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
+    background-color: #cbc1dd;
+    color: white;
+    width: 100%;
+    height: 90px;
+
+}
+#part-two {
+    text-align: center;
+    background-color: white;
+    color: #674a9e;
+    height: 600px;
+}
+#part-three {
+    text-align: center;
+    background-color: #674a9e;
+    color: white;
+    height: 600px;
+}
+#part-three > button {
+    margin-left: 70%;
+    margin-top: 2%;
+    padding: 1em 2em;
+    background-color: white;
+    border: none;
+    color: #674a9e;
+}
+#part-three > h2 {
+    padding: 2em 2em;
+    }
+    #part-four {
+        text-align: center;
+        background-color: white;
+        color: #674a9e;
+        height: 600px;
+    }
+    #part-four > img {
+        width: 20%;
+        position: absolute; 
+        margin-top: -15%;
+        margin-left: -10%;
+        border: 10px solid #674a9e;
+    }
+    #part-four > h2 {
+        padding: 2em 2em;
+        }
+        #part-four > h4 {
+            margin-left: 30%;
+            margin-right: 30%;
+            color:#674a9e;
+            font-family: arial;
+        }
+        #part-four > button {
+            margin-left: 70%;
+           margin-top: 10%;
+            padding: 1em 2em;
+            background-color: #674a9e;
+            border: none;
+            color: white;
+        }
+        #part-five {
+            
+            background-color:#674a9e ;
+            color: white;
+            height: 1000px;
+        }
+        .fb-page {
+            margin-left: 5%;
+            margin-top: 5%; 
+        }
+
+      
+        #feed-items > img {
+            margin-left: 5%;
+            width: 20%; 
+            border: white 20px solid;
+        }
+        #part-five > h2 {
+            text-align: center;
+            padding: 2em 2em;
+            }
+            #networking-events {
+                display: flex; 
+                justify-content: space-around;
+
+            }
+            .network-container { 
+                border-radius: 25px;
+                background-color: white; 
+                height: 300px;
+                width: 30%;
+                margin-left: 0%;
+            }
+            .network-container > h2 {
+                color: #674a9e;
+            }
+            .network-container  > h3 {
+                color: #674a9e;
+            }
+            .network-container:hover { 
+                height: 200px;
+                width: 33%;
+                transition: 1s ease;
+            }
+footer {
+    display: flex;
+  
+    color: #674a9e;
+    
+}
+
+#special-container {
+    font-size: 2em;
+    text-align: center;
+    color: #674a9e;
+}
+#special-container > h4 {
+    font-size: 0.9em;
+    text-decoration: underline;
+}
+#special-container-2 {
+    font-size: 2em;
+    text-align: center;
+    color: #674a9e;
+}
+#special-container-2 > img {
+    width: 50%;
+}
+
+#special-container-2 > h4 {
+    font-size: 0.9em;
+    text-decoration: underline;
+}
+#special-container-2  h5:hover {
+    opacity: 0.75;
+}
+
+
+#special-container > h5 {
+    font-family: arial;
+    font-size: 0.4em;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#special-container > img {
+    border-radius: 360px;
+    border: 10px solid #674a9e;
+}
+#special-container > img:hover {
+   transition: ease 1s;
+    width: 18%;
+
+}
+
+footer > h4 {
+    margin-left: 5%;
+}
+#mobile {
+    display: none;
+}
+#extra {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    color: #674a9e;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 800px) {
+    nav { 
+        display: none;
+    }
+    #extra {
+        font-size: 0.9em;
+    }
+    #part-one {
+        font-size: 0.9em;
+    }
+    #networking-events {
+        flex-direction: column;
+        
+        font-size: 0.7em;
+    }
+    .network-container {
+        width: 100%;
+        border-radius: 0px;
+        margin-bottom: 10px;
+        height: 100px;
+        
+    }
+    #part-two > div { 
+        font-size: 1em;
+    } 
+    #circles {
+        display: none;
+    }
+    #logo > img {
+     
+        width: 30%;
+    }
+    #title {
+        margin-top: 60%;
+
+    }
+    #part-four > img {
+        display: none;
+    }
+    #part-one {
+        margin-top: 120%;
+    }
+    iframe {
+        width: 50%;
+    }
+    #feed-items > img {
+        margin-left: 15%;
+        }
+        .fb-page {
+            margin-left: 15%;
+            width: 70%;
+        }
+        #mobile {
+            display: block;
+            color: #674a9e;
+            position: absolute;
+            
+        }
+        #logo-items {
+            display: none;
+        }
+        #nav {
+           display: block;
+            background-color: white;
+            color: #674a9e; 
+
+        }
+      
+        nav li a:hover {
+            background-color: white;
+            color: #674a9e; 
+        
+        }
+        #part-four > h4 { 
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+      
+       
+}
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+    #logo > img {
+        width: 30%;
+    }
+    #title {
+        margin-top: 60%;
+
+    }
+    #part-four > button {
+        margin-top: -4%;
+    }
+    #part-four > img {
+        display: none;
+    }
+    #part-one {
+        margin-top: 120%;
+    }
+    iframe {
+        width: 50%;
+    }
+    #feed-items > img {
+        margin-left: 15%;
+        }
+        .fb-page {
+            margin-left: 15%;
+            width: 70%;
+        }
+        #mobile {
+            display: block;
+            color: #674a9e;
+            position: absolute;
+            
+        }
+        
+        #logo-items {
+            display: none;
+        }
+        
+        nav {
+            display: none;
+
+
+        
+            color:#674a9e; 
+
+        }
+        nav a {
+            color: white;
+        }
+        nav li a:hover {
+            background-color: white;
+            color: #674a9e; 
+        
+        }
+        #part-four > h4 { 
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+    }
+@keyframes up {
+    0% {
+        margin-top: 13%; 
+    }
+    50% {
+        margin-top: 15%;
+    }
+    100% {
+        margin-top: 13%; 
+    }
+}
+@media only screen and (max-width: 700px) {
+    #we-are-live { 
+        font-size: 0.5em;
+        margin-left: -1.6%;
+    
+    }
+}
+@media only screen and (min-width: 1000px) {
+    nav {
+        display:flex;
+    }
+}
